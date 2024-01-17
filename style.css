@@ -1,0 +1,324 @@
+body {
+  font-family: 'Heebo', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #74b3dd;
+  background-color: #fefefe; 
+
+}
+
+header {
+  padding-bottom: 0;
+  text-align: center;
+  font-size: 6.4rem;
+  letter-spacing: 8px;
+  margin: 0;
+  padding: 0;
+  font-weight: 900;
+}
+
+
+.content {
+  width: 80%;
+  max-width: 900px;
+  height: 80%;
+  margin: 20px auto;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 100px;
+  color: #4a4a4a;
+  background-color: #ffffff; /* Matching the background */
+  box-shadow: 5px 5px 10px #d2d2d2,
+              -5px -5px 10px #efefef;
+  padding: 17px;
+  border-radius: 10px;
+
+}
+
+
+.title{
+  font-weight: 200;
+  font-size: 1.9rem;
+  letter-spacing: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+
+.text {
+  font-weight: 200;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  padding: 0;
+  margin: 0;
+}
+
+.search-user input {
+  width: 97%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 7px;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 5px;
+  border: #8baed4;
+  color: #74b3dd;
+  background-color: #ffffff;
+  box-shadow: inset 8px 8px 15px #ffffff,
+              inset 10px -3px 10px #eaeaea; /* Inset shadow for input */
+}
+
+input::placeholder {
+  color: #74b3dd;
+  font-weight: 400;
+  font-family: 'Heebo', sans-serif;
+  text-align: center;
+}
+
+
+.search-user p {
+  margin-left: 5px;
+  padding: 0;
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+}
+
+
+
+/* 유저 프로필 부분 */
+
+.user-info {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1rem;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.user-info h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  padding: 0;
+  margin: 0;
+}
+
+
+.user-info img {
+  width: 30vw;
+  border-radius: 7px;
+
+  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+}
+
+
+/* 유저 프로필 정보 부분 */
+.user-info div {
+  background-color: #ffffff;
+  padding: 0;
+  justify-content: center;
+}
+
+
+.user-info ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 1rem;
+  margin: 0;
+}
+
+
+
+.user-info li {
+  margin: 5px 0;
+  font-size: 1.2rem;
+  list-style-type: none;
+  color: #333;
+  padding: 0px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin: 20px 0px;
+}
+
+.user-info li::after {
+  content: '';
+  display: block;
+  width: 70%; /* 선의 길이 조절 */
+  height: 1px; /* 선의 두께 */
+  background-color: #d1d1d1; /* 선의 색상 */
+  margin: auto; /* 가운데 정렬 */
+}
+
+
+
+.user-info a {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #74b3dd;
+  color: #f8f8f8;
+  text-decoration: none;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  letter-spacing: 0.3px;
+  border-radius: 5px;
+}
+
+
+
+.user-info a:hover {
+  background-color: #f8f8f8;
+  color: #74b3dd;
+  text-decoration: none;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  letter-spacing: 0.3px;
+  box-shadow: 0 0.5em 0.5em -0.4em rgb(224, 224, 224);
+            transform: translateY(-3px);
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #cbcbcb, -2px -2px 5px #ffffff;
+}
+
+
+
+.user-info button {
+  margin-top: 15px;
+  border: none;
+  background: none;
+}
+
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.github-link {
+  padding: 0;
+}
+
+
+
+/* 레포지토리 부분 */
+.repos-list, .repo-item {
+  background-color: #ffffff;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px #ececec,
+              -5px -5px 10px #f1f1f1;
+}
+
+.repo-item a {
+  text-decoration: none;
+  color: #74b3dd;
+  font-size: 1.2rem;
+  width: 100px;
+  font-weight: 200;
+  letter-spacing: 4px;
+  background-color: #f5f5f5;
+  border: 1px solid #74b3dd;
+  border-radius: 4px;
+  padding: 0px 15px;
+}
+
+
+.repo-item p {
+  font-size: 1.2rem;
+  font-weight: 100;
+  padding: 7px;
+  margin: 7px;
+  background-color: #f4f4f4;
+  letter-spacing: 3px;
+  border-radius: 7px;
+  color: #414141;
+  
+
+}
+
+
+.repos {
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.repo-item a:hover {
+  background-color: #74b3dd;
+  color: #ffffff;
+
+  box-shadow: 0 0.5em 0.5em -0.4em rgb(224, 224, 224);
+            transform: translateY(-3px);
+}
+
+
+
+.repo-details {
+   margin: 2px;
+   letter-spacing: 1px;
+}
+
+/* For tablets and smaller laptops */
+@media screen and (max-width: 1024px) {
+  .content {
+      width: 90%;
+  }
+  .user-info img {
+      width: 50%;
+  }
+  .user-details {
+      font-size: 1.1rem;
+  }
+  header {
+      font-size: 5.6rem;
+  }
+}
+
+
+/* For medium screens like tablets and small laptops */
+@media screen and (max-width: 1024px) {
+  /* Styles for medium screens */
+  .content {
+      width: 90%;
+  }
+  /* ... other styles ... */
+}
+
+/* For small tablets */
+@media screen and (max-width: 768px) {
+  /* Styles for small tablets */
+  .content {
+      width: 95%;
+  }
+  /* ... other styles ... */
+}
+
+
+@media screen and (max-width: 768px) {
+  /* 화면이 768px 이하일 때 적용될 스타일 */
+  .content {
+      width: 95%;
+      padding: 10px;
+  }
+
+  .user-info img {
+      width: 50vw; /* 이미지 크기 조정 */
+  }
+
+  .user-info {
+      flex-direction: column; /* 항목을 세로로 배치 */
+      align-items: center; /* 중앙 정렬 */
+  }
+
+  .user-details {
+      margin-top: 10px;
+  }
+
+  /* 기타 필요한 스타일 변경 사항 */
+}
+
